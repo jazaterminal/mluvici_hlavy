@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#f3eadf" />
+  <title>Hlášky</title>
+  <meta name="description" content="Klikni na čtvereček a pusť si hlášku." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page-shell">
+    <header class="hero">
+      <p class="eyebrow">SOUNDBOARD</p>
+      <h1>Hlášky</h1>
+      <p class="intro">Klikni na libovolný čtvereček.</p>
+      <div class="controls" aria-label="Ovládání přehrávání">
+        <button class="control-button" id="randomButton" type="button">Náhodná hláška</button>
+        <button class="control-button secondary" id="stopButton" type="button">Zastavit</button>
+      </div>
+    </header>
+
+    <section class="sound-grid" id="soundGrid" aria-label="Seznam hlášek"></section>
+
+    <footer>
+      <p>Soukromý kamarádský soundboard.</p>
+    </footer>
+  </main>
+
+  <script src="sounds.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
